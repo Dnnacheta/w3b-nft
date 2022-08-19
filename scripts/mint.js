@@ -25,14 +25,16 @@ const tokenUri = "https://gateway.pinata.cloud/ipfs/QmaF7PfVJm8xqUyAMNxeRwJBKxKv
 const mintNFT = async () => {
     let nftTxn = await wNft.mintNFT(signer.address, tokenUri)
     await nftTxn.wait()
-    console.log(`Here is your NFT ⏩ https://goerli.etherscan.io/tx/${nftTxn.hash}`)
+    console.log(`Here is your NFT ⏩ https://goerli.etherscan.io/tx/${nftTxn.hash}`) 
 }
 
 mintNFT()
-    .then(() => process.exit(0))
-    .catch((error) => {
-        console.error(error);
-        process.exit(1);
-    });
+.then(() => process.exit(0))
+.catch((error) => {
+    console.error(error);
+    process.exit(1);
+});
 
+// TXn Hash: 0x043e54a1cd684efab0ad1cb2d7e28ff1887bdc60a8c36b895bfd0b094958f09b
 
+// opensea: https://testnets.opensea.io/assets?search[query]=0x21fE7704f9Bb608d1b8673c3Fe78CFFC1B1C804a&search[resultModel]=ASSETS
