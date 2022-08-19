@@ -1,0 +1,12 @@
+{
+    "attributes" : [ {
+      "trait_type" : "Preface",
+      "value" : "Serendipity"
+    }, {
+      "trait_type" : "Face",
+      "value" : "Serpentine"
+    } ],
+    "description" : "The world's most adorable and sensitive pup.",
+    "image" : "https://gateway.pinata.cloud/ipfs/QmaF7PfVJm8xqUyAMNxeRwJBKxKvjVPcyhFxdNba4WCgJn",
+    "name" : "Face-One"
+}
