@@ -9,3 +9,7 @@ typechain-types
 cache
 artifacts
 test
+yarn-error.log
+yarn.lock
+package-lock.json
+package.json
